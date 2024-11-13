@@ -1,0 +1,75 @@
+/* Add styles here */
+ /* Hide the spin buttons in WebKit browsers */
+ 
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+
+        body {
+            font-family: 'Montserrat';font-size: 15px;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgb(18, 18, 18);
+            background-image: url("https://slidechef.net/wp-content/uploads/2021/10/Free-Google-Slides-Math-Background.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+
+        .container {
+            color: white;
+            background-color: rgba(244, 244, 244, 0.4);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.4); 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+            backdrop-filter: blur(1.8px);
+            -webkit-backdrop-filter: blur(1.8px);
+        }
+        .input-group {
+            margin-bottom: 15px;
+            padding-bottom: 25px;
+            padding-top: 20px;
+        }
+        .input-group-atas {
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            color: white;
+            background-color: #303030;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            color: black;
+            font-weight: bold;
+            background-color: #ffffff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #c1c1c1;
+        }
+        #hasil {
+            color: rgb(255, 255, 255);
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #303030;
+            display: none;
+        }
